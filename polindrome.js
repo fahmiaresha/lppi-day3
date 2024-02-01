@@ -29,24 +29,24 @@ console.log(CheckPalindromeSenstive(str5));
 console.log(CheckPalindromeSenstive(str6));
 
 // cek palindrome case sensitive
-// function CheckPalindrome(str) {
-//     let rev = str.split("").reverse().join(""); 
-//     if (rev == str) {
-//         return true
-//     }
-//     return false
-// }
+function CheckPalindrome(str) {
+    let rev = str.split("").reverse().join(""); 
+    if (rev == str) {
+        return true
+    }
+    return false
+}
  
-// let st1 = "Katak";
-// let st2 = "Kasur Ini Rusak";
-// let st3 = "Level";
-// let st4 = "Malam";
-// let st5 = "A man, a plan, a canal, Panama!";
-// let st6 = "Coding";
+let st1 = "Katak";
+let st2 = "Kasur Ini Rusak";
+let st3 = "Level";
+let st4 = "Malam";
+let st5 = "A man, a plan, a canal, Panama!";
+let st6 = "Coding";
 
-// console.log(CheckPalindrome(st1));
-// console.log(CheckPalindrome(st2));
-// console.log(CheckPalindrome(st3));
-// console.log(CheckPalindrome(st4));
-// console.log(CheckPalindrome(st5));
-// console.log(CheckPalindrome(st6));
+console.log(CheckPalindrome(st1));
+console.log(CheckPalindrome(st2));
+console.log(CheckPalindrome(st3));
+console.log(CheckPalindrome(st4));
+console.log(CheckPalindrome(st5));
+console.log(CheckPalindrome(st6));
